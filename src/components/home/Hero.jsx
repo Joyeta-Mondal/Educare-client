@@ -8,10 +8,10 @@ const Hero = () => {
         <h3 className="text-lg lg:text-xl font-bold text-accentHover nunitoSans-font mb-4 w-[320px] sm:w-full">
           Scholarship Management System
         </h3>
-        <h1 className="text-3xl lg:text-5xl font-bold text-primary nanumMyeongjo-font mb-6 w-[320px] sm:w-full">
+        <h1 className="text-3xl lg:text-5xl dark:text-gray-100 font-bold text-primary nanumMyeongjo-font mb-6 w-[320px] sm:w-full">
           Discover Your Ultimate Scholarship
         </h1>
-        <p className="text-md lg:text-lg text-gray-600 w-[320px] sm:w-full">
+        <p className="text-md lg:text-lg dark:text-gray-100 text-gray-600 w-[320px] sm:w-full">
           Find the best scholarship for you. Search from thousands of
           scholarships available.
         </p>
