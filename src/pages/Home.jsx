@@ -3,6 +3,8 @@ import Hero from "../components/home/Hero";
 import TabRow from "../components/home/TabRow";
 import Testimonials from "../components/home/Testimonials";
 import Students from "../components/home/Students";
+import OurPartners from "../components/home/OurPartners";
+import HowItWorks from "../components/home/HowItWorks";
 
 const Home = () => {
   return (
@@ -17,8 +19,10 @@ const Home = () => {
         Top Scholarship
       </p>
       <TabRow />
+      <OurPartners />
       <Testimonials />
       <Students />
+      <HowItWorks />
     </div>
   );
 };

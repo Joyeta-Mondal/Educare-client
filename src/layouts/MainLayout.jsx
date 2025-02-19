@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Footer from "../components/ui/Footer";
 import Navbar from "../components/ui/Navbar";
 import { Outlet } from "react-router-dom";
+// import HowItWorks from "../components/ui/HowItWorks";
 
 function MainLayout() {
   // xl:max-w-[1100px] 2xl:max-w-[1400px] px-5 md:px-0 mx-auto
@@ -25,6 +26,7 @@ function MainLayout() {
     <div className="min-h-screen min-w-screen flex flex-col justify-between font-poppins overflow-x-hidden">
       <Navbar toggleTheme={toggleTheme} currentTheme={theme} />
       <Outlet />
+      {/* <HowItWorks/> */}
       <Footer />
     </div>
   );
