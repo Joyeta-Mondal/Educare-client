@@ -3,47 +3,72 @@ import logo from "../../assets/logo/logo.png";
 
 function Footer() {
   return (
-    <div className="bg-secondary text-neutral p-10 flex flex-col items-center">
-      <footer className="footer flex lg:flex-row flex-col items-start justify-center gap-x-72">
-        <aside className="flex sm:flex-row flex-col sm:gap-x-4 sm:items-center">
-          <img className="w-32 h-32" src={logo} alt="" />
+    <div className="bg-secondary text-neutral p-8 sm:p-10 flex flex-col items-center">
+      <footer className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-8 w-full max-w-7xl">
+        {/* Brand Section */}
+        <aside className="flex flex-col sm:flex-row sm:items-center sm:gap-x-4 text-center sm:text-left">
+          <img
+            className="w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-0"
+            src={logo}
+            alt="EduCare Logo"
+          />
           <div>
-            <h2 className="text-3xl font-semibold">EduCare</h2>
-            <p>A scholarship management platform</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold">EduCare</h2>
+            <p className="text-sm sm:text-base">
+              A scholarship management platform
+            </p>
           </div>
         </aside>
-        <nav>
-          <h6 className="footer-title">Contact Information</h6>
-          <a className="link link-hover">joyeta@gmail.com</a>
-          <a className="link link-hover">+880 1744444444</a>
-          <a className="link link-hover">Dhaka, Bangladesh</a>
+
+        {/* Contact Section */}
+        <nav className="text-center lg:text-left">
+          <h6 className="footer-title text-lg font-semibold mb-2">
+            Contact Information
+          </h6>
+          <p className="text-sm sm:text-base">joyeta@gmail.com</p>
+          <p className="text-sm sm:text-base">+880 1744444444</p>
+          <p className="text-sm sm:text-base">Dhaka, Bangladesh</p>
         </nav>
-        <nav>
-          <h6 className="footer-title">Get in touch</h6>
-          <a href="#" target="_blank" className="link link-hover">
-            <div className="flex gap-x-4 font-medium">
+
+        {/* Social Section */}
+        <nav className="text-center lg:text-left">
+          <h6 className="footer-title text-lg font-semibold mb-2">
+            Get in touch
+          </h6>
+          <div className="flex flex-col items-center lg:items-start gap-2">
+            <a
+              href="https://www.linkedin.com/in/joyeta-mondal-kotha/"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-accent transition"
+            >
               <FaLinkedin />
-              Linked In
-            </div>
-          </a>
-          <a href="#" target="_blank" className="link link-hover">
-            <div className="flex gap-x-4 font-medium">
+              LinkedIn
+            </a>
+            <a
+              href="https://x.com/KothaJoye1023"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-accent transition"
+            >
               <FaSquareXTwitter />
               Twitter
-            </div>
-          </a>
-          <a href="#" target="_blank" className="link link-hover">
-            <div className="flex gap-x-4 font-medium">
+            </a>
+            <a
+              href="https://www.facebook.com/joyeta.mondal23"
+              target="_blank"
+              className="flex items-center gap-2 hover:text-accent transition"
+            >
               <FaFacebook />
               Facebook
-            </div>
-          </a>
+            </a>
+          </div>
         </nav>
       </footer>
-      <div className="mt-4 ">
-        <hr className="w-[90vw] h-2" />
-        <p className="text-center text-neutral">
-          &copy; 2025 Educare. All rights reserved.
+
+      {/* Footer Bottom */}
+      <div className="mt-8 w-full max-w-7xl">
+        <hr className="border-neutral opacity-30 mb-2" />
+        <p className="text-center text-sm">
+          &copy; 2025 EduCare. All rights reserved.
         </p>
       </div>
     </div>
