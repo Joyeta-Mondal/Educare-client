@@ -6,6 +6,7 @@ import Students from "../components/home/Students";
 import OurPartners from "../components/home/OurPartners";
 import HowItWorks from "../components/home/HowItWorks";
 import FrequentlyAskedQs from "../components/home/FrequentlyAskedQs";
+import WhatWeOffer from "../components/home/WhatWeOffer";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Testimonials />
       <Students />
       <HowItWorks />
+      <WhatWeOffer />
       <FrequentlyAskedQs />
     </div>
   );

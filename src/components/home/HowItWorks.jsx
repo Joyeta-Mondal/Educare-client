@@ -46,7 +46,7 @@ const HowItWorks = () => {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            <div className="bg-sky-400 w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mb-4 shadow-md">
+            <div className="bg-sky-600 w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center mb-4 shadow-md">
               {step.icon}
             </div>
             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">

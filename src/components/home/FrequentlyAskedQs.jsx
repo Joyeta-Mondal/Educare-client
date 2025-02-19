@@ -58,7 +58,7 @@ const FrequentlyAskedQs = () => {
               onClick={() => toggleFAQ(index)}
             >
               <div className="flex items-center gap-4">
-                <span className="text-lg font-bold text-purple-600">
+                <span className="text-lg font-bold text-sky-700">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <span className="font-semibold text-gray-800 dark:text-white">
