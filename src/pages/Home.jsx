@@ -10,7 +10,12 @@ import WhatWeOffer from "../components/home/WhatWeOffer";
 
 const Home = () => {
   return (
-    <div className="md:max-w-[780px] lg:max-w-[1000px] xl:max-w-[1200px] mx-auto py-10 px-2">
+    <div
+      className="w-full max-w-[1200px] mx-auto  py-10 px-4 sm:px-6 
+    
+    "
+      // md:max-w-[780px] lg:max-w-[1000px] xl:max-w-[1200px] mx-auto py-10 px-2
+    >
       <Helmet>
         <title>EduCare | Home</title>
       </Helmet>
