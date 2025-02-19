@@ -112,4 +112,4 @@ Edu-Care is a platform for managing scholarships, allowing users to browse, appl
 - Payment Gateway: Stripe/SSL-Commerz
 
 ## Live Link 
-[Edu-Care]=("https://edu-care-e1c6c.web.app/")
+[Edu-Care]=("")
