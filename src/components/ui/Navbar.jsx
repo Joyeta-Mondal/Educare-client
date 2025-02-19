@@ -52,7 +52,7 @@ function Navbar({ toggleTheme, currentTheme }) {
   }, [menuRef]);
 
   return (
-    <div className="navbar bg-secondary pr-6">
+    <div className="navbar bg-secondary pr-6 sticky top-0 z-50 shadow-md">
       <div className="navbar-start">
         <div className="dropdown z-20">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
